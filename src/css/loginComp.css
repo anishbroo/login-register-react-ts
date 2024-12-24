@@ -1,0 +1,139 @@
+/* Page background styling */
+body {
+  background: linear-gradient(135deg, #e7e9bb, #403b4a);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+
+/* Container styling */
+.login-container {
+  max-width: 450px;
+  width: 90%;
+  background-color: lightgrey;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title styling */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.login-form input {
+  width: 85%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+  background: white;
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+
+/* Password container (to blend the eye icon inside) */
+.password-container {
+  position: relative;
+  width: 85%;
+  margin: 10px 0;
+}
+
+.password-container input {
+  width: 90%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  color: black;
+  margin: inherit;
+}
+
+/* Eye icon button */
+.eye-button {
+  position: absolute;
+  left: 215px;
+  top: 10px;
+  background: transparent;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+}
+
+/* Buttons styling */
+.login-button {
+  display: flex;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  justify-content: space-around;
+}
+
+button[type="submit"] {
+  background-color: rgb(107, 102, 102);
+}
+
+button[type="reset"] {
+  background-color: rgb(107, 102, 102);
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(16, 138, 47);
+}
+
+button[type="reset"]:hover {
+  background-color: rgb(190, 61, 61);
+}
+
+/* Loading, error, and success messages */
+p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+}
+
+.forgot-container p {
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+  cursor: pointer;
+}
+
+.account-container span {
+  cursor: pointer;
+}
+.account-container span:hover {
+  color: rgb(53, 53, 192);
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+}
+
+.input-container input {
+  flex: 1;
+}
